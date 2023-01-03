@@ -1,0 +1,21 @@
+{
+  "name": "efrei-2023-st2-tst-prj",
+  "version": "1.0.0",
+  "description": "## Introduction",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MartinLenaerts/efrei-2023-st2-tst-prj.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MartinLenaerts/efrei-2023-st2-tst-prj/issues"
+  },
+  "homepage": "https://github.com/MartinLenaerts/efrei-2023-st2-tst-prj#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.29.1"
+  }
+}

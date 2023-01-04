@@ -15,15 +15,6 @@ exports.TeamPage = class TeamPage {
     }
 
     async deleteTeamFromName(name) {
-        const teamFromName = await this.page.getByRole('row', { name: name });
-        console.log(teamFromName);
-        if(!teamFromName) {
-            return;
-        }
-        
-        /* TODO BUG, doesn't delete the selected row
-        await teamFromName.locator('a', { hasText: 'Delete' }).click();
-        await this.page.getByRole('button', { name: 'Proceed' }).click();
-        */
+        await this.page.getByRole('row', { name: `${name} View members Delete` }).getByRole('cell', { name: 'Delete' }).click();
     }
 }
